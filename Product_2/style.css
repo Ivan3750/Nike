@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    height: 100px;
+    background-color: black;
+}
+.logo{
+    width: 100px;
+    margin-left: 50px;
+}
+.box{
+    margin: 20px auto;
+    width: 1200px;
+    height: 700px;
+    box-shadow: 2px 2px 20px #777;
+    border-radius: 20px;
+    display: flex;
+}
+
+.Product{
+    margin: 50px;
+    border-radius: 20px;
+    width: 550px;
+}
+.box-info{
+    width: 600px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+table{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+p{
+    margin-top: 50px;
+    margin-right: 20px;
+}
+td{
+    border: 1px solid #777;
+    border-collapse: collapse;
+    font-size: 20px;
+
+
+}
+td{
+    width: 80px;
+    height: 40px;
+    transition: s;
+}
+td:hover{
+    border: 2px solid #000;
+}
+td:active{
+    background-color: #000;
+    color: #fff;
+}
+
+.box__button{
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+.box__button:hover{
+    background-color: #000;
+    color: #fff;
+}
+.box__button:active{
+    margin-top: 25px;
+    width: 140px;
+    height: 40px;
+}
+.button-clicked{
+    background-color: #000;
+    color: #fff;
+}
+.button-clicked {
+    background-color: red;
+}
